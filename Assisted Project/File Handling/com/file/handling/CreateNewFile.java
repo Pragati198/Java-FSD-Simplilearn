@@ -12,14 +12,24 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class CreateNewFile 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
+import java.util.Arrays;
+import java.util.List;	
+ 
+public class CreateNewFile
 {
     public static void main(String[] args) throws IOException
     {
-    	createFileUsingFileClass();
+        createFileUsingFileClass();
         createFileUsingFileOutputStreamClass();
         createFileIn_NIO();
-
     }
  
     private static void createFileUsingFileClass() throws IOException
@@ -58,6 +68,4 @@ public class CreateNewFile
                     StandardOpenOption.CREATE,
                     StandardOpenOption.APPEND);
     }
-
-
 }
