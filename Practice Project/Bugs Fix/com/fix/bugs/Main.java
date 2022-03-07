@@ -30,11 +30,11 @@ public class Main
 		}
 		ArrayList<Integer> arrlist = new ArrayList<Integer>();
 		ArrayList<Integer> expenses = new ArrayList<Integer>();
-		expenses.add(101);
-		expenses.add(125);
-		expenses.add(215);
-		expenses.add(312);
-		expenses.add(512);
+		expenses.add(129);
+		expenses.add(258);
+		expenses.add(198);
+		expenses.add(4457);
+		expenses.add(2255);
 		expenses.addAll(arrlist);
 		System.out.println("\nEnter your choice:\t");
 		Scanner sc = new Scanner(System.in);
